@@ -1,16 +1,24 @@
-# mygame
+Player have to guess the word, which game have.
 
-A new Flutter project.
+For each guess game return with number of bulls and cow.
 
-## Getting Started
+BULL - Correct letter in correct position.
+COW - Incorrect letter in incorrect position.
 
-This project is a starting point for a Flutter application.
+EXAMPLE:
+Game wrod - HEAD
 
-A few resources to get you started if this is your first Flutter project:
+User guess - BOLD
+Game return 1 bull 0 cow
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+User guess - TRUE
+Game return 0 bull 1 cow
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+User guess - HEAD
+You won the game
+
+HINT - Hint will return the correct letter from the game word.
+
+NO LIMIT MODE - In this mode you don't have any limits to guess the word and have 3 hints which will help you.
+
+CHALLANGE MODE - You will have 10 chances to guess the word and have 2 hints.
